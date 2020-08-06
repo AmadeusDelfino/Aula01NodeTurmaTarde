@@ -1,1 +1,7 @@
-console.log('oi')
+const livros_infantis = require('./books/infantil')
+const scifi = require('./books/scifi')
+const mostrarLivros = require('./books/mostrarLivro')
+const scooby = require('./cachorro/scooby')
+mostrarLivros(livros_infantis)
+mostrarLivros(scifi)
+console.table(scooby)
